@@ -1,4 +1,4 @@
-# A case of data ceralisation
+# A case of data cerealisation
 We have used the provided template for the course [*Datalogical Thinking*](https://www.hb.se/globalassets/global/international-office/kursplaner-ischool/ht23_datalogical-thinking-c3mdt1.pdf)  
 
 ## About the Assignment
