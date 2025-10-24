@@ -3,26 +3,28 @@ h1 {
    color: green;
 }
 
-}
+/* block-level navigation bar */
+
 ul#navigation {
-    list-style-type: none;
-    margin-left: 0;
-    padding-left: 0;
-    overflow: hidden;
-    background-color: #8bcc35;
-  }
-  ul#navigation li {
-    float: left;
-  }
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+   background-color: #8bcc35;
+ }
+
+ul#navigation li {
+   float: left;
+ }
 
 ul#navigation li a {
-    display: block;
-    color: black;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
+   display: block;
+   color: black;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+ }
 
 ul#navigation li a:hover {
-background-color: #a2ed3e;
-}
+   background-color: #a2ed3e;
+ }
