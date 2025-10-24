@@ -4,18 +4,18 @@ h1 {
 }
 
 }
-ul#navigation {
+ul#menu {
     list-style-type: none;
     margin-left: 0;
     padding-left: 0;
     overflow: hidden;
     background-color: #8bcc35;
   }
-  ul#navigation li {
+  ul#menu li {
     float: left;
   }
 
-ul#navigation li a {
+ul#menu li a {
     display: block;
     color: black;
     text-align: center;
@@ -23,6 +23,6 @@ ul#navigation li a {
     text-decoration: none;
 }
 
-ul#navigation li a:hover {
+ul#menu li a:hover {
 background-color: #a2ed3e;
 }
