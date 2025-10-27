@@ -27,6 +27,13 @@
     <h2>Attributes</h2>
     <p>There are four main attributes in our algorithm based on the dataset we curated:</p> 
       <list>
+        
+      <label for="cerealType">Choose your cereal type:</label><br />
+      <input type="radio" id="hot" name="cerealType" value="H" />
+      <label for="hot">H = Hot</label><br />
+
+      <input type="radio" id="cold" name="cerealType" value="C" />
+      <label for="cold">C = Cold</label>
         <li><b>type of cereal, string, "hot" or "cold"</b> Initial user preference of whether the user prefers hot cereal or cold cereal for breakfast</li> 
         <li><b>calories per serving, integer, 50</b> Defines how important calory intake is for the user, can help in finding low calory options if it is important</li> 
         <li><b>sugar content, float, 6.7</b> Is it important for the user that the cereals are sweet? If not let's suggest healthier options.</li>
@@ -40,6 +47,7 @@
 </body>
 
 </html>
+
 
 
 
