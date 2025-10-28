@@ -2,7 +2,9 @@
 /* Feel free to change me and make me your own! */
 
 body {
-  background-color: #7ae5ef; 
+  background-image: url("img/cereals.jpg");
+  background-repeat: no-repeat;
+  background-color: #1b80b8;
   font-family: Georgia, serif; 
 }
 ul#navigation {
@@ -10,7 +12,7 @@ ul#navigation {
     margin-left: 0;
     padding-left: 0;
     overflow: hidden;
-    background-color: #8bcc35;
+    background-color: #1b80b8;
   }
   ul#navigation li {
     float: left;
@@ -25,33 +27,52 @@ ul#navigation li a {
 }
 
 ul#navigation li a:hover {
-background-color: #a2ed3e;
+background-color:#dc9332;
+}
+
+div {
+  background-color:rgba(27, 128, 184, 0.9);
+  width: 60%;
+  border-radius: 25px;
+}
+
+list {
+  font-size: 20px;
+  margin-right: 2%;
+  margin-left: 2%;
+  }
+li {
+  margin-right: 2%;
+  margin-left: 2%; 
 }
 
 article {
-  margin-left: 10vw; 
-  margin-right: 10vw; 
+  margin-right: 2%;
+  margin-left: 2%;
 }
 
 h1 {
   font-size: 48px; 
+  margin-right: 2%;
+  margin-left: 2%;
 }
 
 h2 {
   font-size: 36px; 
+  margin-right: 2%;
+  margin-left: 2%;
 }
 
 p {
   font-size: 20px; 
+  margin-right: 2%;
+  margin-left: 2%;
 }
 
 ul {
-  font-size: 20px; 
-  list-style-type: square; 
-}
-
-code {
- font-family: 'Courier New', monospace; 
+  font-size: 20px;
+  margin-right: 2%;
+  margin-left: 2%;
 }
 
 footer{
