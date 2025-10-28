@@ -36,30 +36,43 @@ div {
   border-radius: 25px;
 }
 
+list {
+  font-size: 20px;
+  margin-right: 2%;
+  margin-left: 2%;
+  }
+li {
+  margin-right: 2%;
+  margin-left: 2%; 
+}
+
 article {
-  margin-left: 10vw; 
-  margin-right: 10vw; 
+  margin-right: 2%;
+  margin-left: 2%;
 }
 
 h1 {
   font-size: 48px; 
+  margin-right: 2%;
+  margin-left: 2%;
 }
 
 h2 {
   font-size: 36px; 
+  margin-right: 2%;
+  margin-left: 2%;
 }
 
 p {
   font-size: 20px; 
+  margin-right: 2%;
+  margin-left: 2%;
 }
 
 ul {
-  font-size: 20px; 
-  list-style-type: square; 
-}
-
-code {
- font-family: 'Courier New', monospace; 
+  font-size: 20px;
+  margin-right: 2%;
+  margin-left: 2%;
 }
 
 footer{
