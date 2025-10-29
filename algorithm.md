@@ -50,6 +50,21 @@ IF fiberPref = "yes"
     SORT finalList BY fiber DESCENDING
 END IF
 
+//Show popupbox (with brand information when clicking on object in list of suggested cereals)//
+FUNCTION showPopupbox(cereal)
+FUNCTION closePopupbox()
+Write “For more information about the cereal please click on cereal of interest”
+FOR each cereal IN finalList ADD popup box
+    Write in popup box cereal.name, cereal.type, cereal.calories, cereal.sugar, cereal.fiber
+WAIT for user to click a cereal = READ clickCereal
+WAIT for user to close a popupbox = READ clickX
+IF clickCereal = DISPLAY related popupbox THEN
+IF clickX = CLOSE popupbox 
+ELSE don’t show popupbox
+
+RETURN to finalist
+END FOR
+
 //This is the final output. This is where we decide what information to pull from our dataset and post to the user. Currently it's only attributes we've asked about
 Write "Here are your best matches!"
 FOR each cereal IN finalList
